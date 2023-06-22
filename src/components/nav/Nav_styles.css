@@ -1,0 +1,57 @@
+.nav {
+	padding: 20px 0;
+	background-color: var(--nav-bg);
+	border-bottom: 1px solid var(--nav-border);
+	color: var(--nav-text);
+	letter-spacing: normal;
+}
+
+.nav-row {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	column-gap: 30px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+}
+
+.logo {
+	font-weight: 700;
+	line-height: 1.4;
+	font-family: "Exo";
+	margin-right: auto;
+	color: var(--purple);
+	font-size: 30px;
+
+}
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	align-items: center;
+	column-gap: 40px;
+	font-size: 16px;
+	font-weight: 500;
+
+}
+.buttn {
+	display: inline-block;
+	height: 40px;
+	padding: 12px 28px;
+	border-radius: 4px;
+	background-color: var(--purple);
+	color: var(--white);
+	letter-spacing: 0.15px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: opacity 0.2s ease-in;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 300px;
+}
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+}
