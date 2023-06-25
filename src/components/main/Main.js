@@ -3,6 +3,7 @@ import video from "../../images/asqwe23.png"
 import proj1 from "../../images/recs33.png"
 import proj2 from "../../images/Rectangle 7.334.png"
 import proj3 from "../../images/Rectangle 732.png"
+import microsoft from "../../images/clientsw.png"
 
 const Main = () => {
     return ( 
@@ -19,15 +20,15 @@ const Main = () => {
                 </ul>
         </div>
         <img src={manyporjects} alt="smth" className="imgs"/>
-        <div className="container">
+        <div className="container-4">
             <ul className="content-list">
                 <li className="content-list__item">
                     <h2 className="title-3">Как я работаю</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae risus sit amet nisi eleifend.</p>
                 </li>
             </ul>
+            <p className="imgs2"><img src={video} alt="smth"/></p>
         </div>
-        <p className="imgs2"><img src={video} alt="smth"/></p>
             <div className="container">
                 <h2 id="myworks" className="title-1">Мои работы</h2>
                 <ul className="projects">
@@ -68,6 +69,25 @@ const Main = () => {
                         </a>
                     </li>
                 </ul>
+                <p className="imgs2"><img src={microsoft} alt="smth"/></p>
+            </div>
+            <ul className="content-list">
+                    <li className="content-list__item">
+                        <h2 className="title-4">Хотите веб-сайт?</h2>
+                        <p className=".pstyle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae risus sit amet nisi eleifend.</p>
+                    </li>
+            </ul>
+            <div className="container">
+                <ul className="textforms">
+                    <li className="textform">
+                        <input className="text-field" type="text" name="userName" placeholder="Ваше имя" size="18"/>
+                    </li>
+                    <li  className="textform">
+                        <input className="text-field" type="text" name="email" placeholder="Ваш e-mail" size="18"/>
+                    </li>
+                </ul>
+                <textarea className="text-field2" placeholder="Сообщение" rows="20" name="comment[text]" cols="40" autocomplete="off"></textarea>
+                <a href="#myworks" className="buttn_obomne1">Отправить</a>
             </div>
         </main>
      );

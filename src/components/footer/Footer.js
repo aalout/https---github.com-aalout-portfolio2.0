@@ -3,12 +3,11 @@ import vkontakte from "../../images/vksss.png"
 const Footer = () => {
     return ( 
         <footer>
-            <nav>
-                <a href="./index.html">Илья Волков</a>
-                <a href="./index.html">Политика конфиденциальности</a>
-                <a href="./index.html">Copywrite ©</a>
-            </nav>
+            <p className="footertext">Илья Волков</p>
             <img src={vkontakte} className="vks" alt="smth"/>
+            <div className="copyright">
+            <p className="copyright">(с) 2023. Все права защищены.</p>
+            </div>
         </footer>
      );
 }
