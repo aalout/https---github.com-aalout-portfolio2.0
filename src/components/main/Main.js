@@ -85,8 +85,10 @@ const Main = () => {
                     <li  className="textform">
                         <input className="text-field" type="text" name="email" placeholder="Ваш e-mail" size="18"/>
                     </li>
+                    <li className="textform">
+                        <textarea className="text-field2" placeholder="Сообщение" name="messageText"></textarea>
+                    </li>
                 </ul>
-                <textarea className="text-field2" placeholder="Сообщение" rows="20" name="comment[text]" cols="40" autocomplete="off"></textarea>
                 <a href="#myworks" className="buttn_obomne1">Отправить</a>
             </div>
         </main>
