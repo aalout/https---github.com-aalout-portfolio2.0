@@ -1,9 +1,9 @@
-import manyporjects from "../../images/numberssss.png"
+import manyporjects from "../../images/Group.png"
 import video from "../../images/asqwe23.png"
 import proj1 from "../../images/recs33.png"
 import proj2 from "../../images/Rectangle 7.334.png"
 import proj3 from "../../images/Rectangle 732.png"
-import microsoft from "../../images/clientsw.png"
+import microsoft from "../../images/Rectangle 9.png"
 
 const Main = () => {
     return ( 
@@ -19,7 +19,30 @@ const Main = () => {
                     <li className="obomne"><a href="#myworks" className="buttn_obomne">Мои работы</a></li>
                 </ul>
         </div>
-        <img src={manyporjects} alt="smth" className="imgs"/>
+        <div className="container-5">
+            <ul className="projects1">
+                <li className="project1">
+                    <img src={manyporjects} alt="smth"/>
+                    <h6>40+</h6>
+                    <p>проектов</p>
+                </li>
+                <li className="project1">
+                    <img src={manyporjects} alt="smth"/>
+                    <h6>40+</h6>
+                    <p>проектов</p>
+                </li>
+                <li className="project1">
+                    <img src={manyporjects} alt="smth"/>
+                    <h6>40+</h6>
+                    <p>проектов</p>
+                </li>
+                <li className="project1">
+                    <img src={manyporjects} alt="smth"/>
+                    <h6>40+</h6>
+                    <p>проектов</p>
+                </li>
+            </ul>
+        </div>
         <div className="container-4">
             <ul className="content-list">
                 <li className="content-list__item">
@@ -69,7 +92,20 @@ const Main = () => {
                         </a>
                     </li>
                 </ul>
-                <p className="imgs2"><img src={microsoft} alt="smth"/></p>
+                <ul className="microsoft">
+                    <li>
+                        <p className="imgs3"><img src={microsoft} alt="smth"/></p>
+                    </li>
+                    <li>
+                        <p className="imgs4"><img src={microsoft} alt="smth"/></p>
+                    </li>
+                    <li>
+                        <p className="imgs5"><img src={microsoft} alt="smth"/></p>
+                    </li>
+                    <li>
+                        <p className="imgs2"><img src={microsoft} alt="smth"/></p>
+                    </li>
+                </ul>
             </div>
             <ul className="content-list">
                     <li className="content-list__item">
