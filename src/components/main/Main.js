@@ -1,9 +1,13 @@
 import manyporjects from "../../images/Group.png"
 import video from "../../images/asqwe23.png"
-import proj1 from "../../images/recs33.png"
 import proj2 from "../../images/Rectangle 7.334.png"
 import proj3 from "../../images/Rectangle 732.png"
 import microsoft from "../../images/Rectangle 9.png"
+import prod1 from "../../images/IMAGE4432.png"
+import prod2 from "../../images/IMAGE4431.png"
+import prod3 from "../../images/IMAGE4430.png"
+import filledline from "../../images/Group 1656657.png"
+import muzhik from "../../images/Rectangle 3fffff.png"
 
 const Main = () => {
     return ( 
@@ -46,6 +50,24 @@ const Main = () => {
                 </li>
             </ul>
         </div>
+        <div className="container">
+            <ul className="naviki">
+                <li>
+                    <ul>
+                        <li className="navikiH"><h3>Мои навыки</h3></li>
+                        <li>Adobe Photoshop</li>
+                        <li><img src={filledline} alt="smth"/></li>
+                        <li>Adobe Photoshop</li>
+                        <li><img src={filledline} alt="smth"/></li>
+                        <li>Adobe Photoshop</li>
+                        <li><img src={filledline} alt="smth"/></li>
+                    </ul>
+                </li>
+                <li>
+                    <img className="muzhik" src={muzhik} alt="smth"/>
+                </li>
+            </ul>
+        </div>
         <div className="container-4">
             <ul className="content-list">
                 <li className="content-list__item">
@@ -60,38 +82,32 @@ const Main = () => {
                 <ul className="projects">
                     <li className="project">
                         <a href="./project-page.html">
-                            <img src={proj1} alt="smth" className="project__img"/>
-                            <h3 className="project__title">Проект 1</h3>
+                            <img src={proj3} alt="smth" className="projecti"/>
                         </a>
                     </li>
                     <li className="project">
                         <a href="./project-page.html">
-                            <img src={proj2} alt="smth" className="project__img"/>
-                            <h3 className="project__title">Проект 2</h3>
+                            <img src={proj2} alt="smth" className="projecti"/>
                         </a>
                     </li>
                     <li className="project">
                         <a href="./project-page.html">
-                            <img src={proj3} alt="smth" className="project__img"/>
-                            <h3 className="project__title">Проект 3</h3>
+                            <img src={proj3} alt="smth" className="projecti"/>
                         </a>
                     </li>
                     <li className="project">
                         <a href="./project-page.html">
-                        <img src={proj2} alt="smth" className="project__img"/>
-                        <h3 className="project__title">Проект 4</h3>
+                        <img src={proj2} alt="smth" className="projecti"/>
                         </a>
                     </li>
                     <li className="project">
                         <a href="./project-page.html">
-                        <img src={proj1} alt="smth" className="project__img"/>
-                        <h3 className="project__title">Проект 5</h3>
+                        <img src={proj3} alt="smth" className="projecti"/>
                         </a>
                     </li>
                     <li className="project">
                         <a href="./project-page.html">
-                        <img src={proj2} alt="smth" className="project__img"/>
-                        <h3 className="project__title">Проект 6</h3>
+                        <img src={proj2} alt="smth" className="projecti"/>
                         </a>
                     </li>
                 </ul>
@@ -109,6 +125,33 @@ const Main = () => {
                         <p className="imgs2"><img src={microsoft} alt="smth"/></p>
                     </li>
                 </ul>
+            </div>
+            <div className="container">
+                <h2 className="title-4">Хотите купить готовый дизайн?</h2>
+                <ul className="projects2">
+                    <li className="project2">
+                        <a href="product-page.html">
+                            <img src={prod1} alt="smth" className="project2__img"/>
+                            <p className="project2_text">Lorem ipsum1</p>
+                            <p className="project2_op">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit.</p>
+                        </a>
+                    </li>
+                    <li className="project2">
+                        <a href="product-page.html">
+                            <img src={prod2} alt="smth" className="project2__img"/>
+                            <p className="project2_text">Lorem ipsum dolor sit Fusce sit.</p>
+                            <p className="project2_op">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit.</p>
+                        </a>
+                    </li>
+                    <li className="project2">
+                        <a href="product-page.html">
+                            <img src={prod3} alt="smth" className="project2__img"/>
+                            <p className="project2_text">Lorem ipsum Fusce sit.</p>
+                            <p className="project2_op">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit.</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="smth" className="buttn_obomne1">Показать ещё</a>
             </div>
             <ul className="content-list">
                     <li className="content-list__item">
