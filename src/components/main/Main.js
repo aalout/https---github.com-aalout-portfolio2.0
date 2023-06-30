@@ -129,7 +129,7 @@ const Main = () => {
                     <li className="project2">
                         <a href="product-page.html">
                             <img src={prod1} alt="smth" className="project2__img"/>
-                            <p className="project2_text">Lorem ipsum</p>
+                            <p className="project2_text">Lorem ipsum1</p>
                             <p className="project2_op">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit.</p>
                         </a>
                     </li>
