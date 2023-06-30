@@ -18,6 +18,9 @@ const Main = () => {
                 <ul>
                     <li className="obomne"><a href="#myworks" className="buttn_obomne">Мои работы</a></li>
                 </ul>
+                <div>
+                    
+                </div>
         </div>
         <div className="container-5">
             <ul className="projects1">
